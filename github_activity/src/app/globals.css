@@ -75,7 +75,7 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 
@@ -104,4 +104,28 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+.image {
+  max-width: 100%;
+  height: 500px;
+  width: fit-content;
+}
+
+/* Text */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Steps */
+.Step1, .Step2, .Step3, .Step4, .Step5, .Step6 {
+  margin-bottom: 20px;
 }

@@ -41,9 +41,4 @@ npm install```
  bash ```
     npm run dev```
 
- Screenshots
-
- ![Screenshot 1](/src/images/screenshots1.png)
-
-![Screenshot 2](/src/images/screenshots2.png)
     
